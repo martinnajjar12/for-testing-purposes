@@ -1,11 +1,11 @@
 import AutomaticBatching from './AutomaticBatching';
 import './App.css';
-import Transition from './Transition';
+// import Transition from './Transition';
 
 const App = () => (
   <div className="App">
-    {/* <AutomaticBatching /> */}
-    <Transition />
+    <AutomaticBatching />
+    {/* <Transition /> */}
   </div>
 );
 
